@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    border: solid;
+    margin: 0 15vw;
+}
+#tribute-info {
+    background-color: gray;
+    margin: 20px 0;
+}
+#img-caption {
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    color: rgb(155, 154, 154);
+    margin: 0;
+    padding: 30px;
+    font-size: 50px;
+}
+p {
+    margin: 0;
+    padding: 20px;  
+}
+.tipo1 {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    display: block;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="https://cdn-icons-png.flaticon.com/512/5022/5022167.png">
+      <nav id="nav-bar">
+        <p>Boxe Olímpico</p>
+        <a class="nav-link" href="#video-section">Sobre</a>
+        <a class="nav-link" href="#boxe-section">Aprenda</a>
+        <a class="nav-link" href="#form-section">Participe</a>
+      </nav>
+    </header>
+
+    <section id="video-section">
+        <h3>Diferenças entre o Boxe Olímpico e o Profissional:</h3>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-OuJrYT3TG0?si=Bq153pbeIetsnmXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section id="boxe-section">
+        <h3>Aprenda os ataques:</h3>
+      <div id="ataque">
+        <img src="https://multimidia.gazetadopovo.com.br/media/info/2016/olimpiadas-rio-2016/4-boxe/4-boxe_17.png" alt="boxe-ataque">
+      </div>
+      <h3>Aprenda as defesas:</h3>
+      <div id="defesa">
+        <img src="https://multimidia.gazetadopovo.com.br/media/info/2016/olimpiadas-rio-2016/4-boxe/4-boxe_19.png" alt="boxe-defesa">
+      </div>
+      <h3>O que não fazer nas lutas:</h3>
+      <div id="ilegal">
+        <img src="https://multimidia.gazetadopovo.com.br/media/info/2016/olimpiadas-rio-2016/4-boxe/4-boxe_22.png" alt="boxe-ilegal">
+      </div>
+    </section>
+
+    <section id="form-section">
+        <h3>Se quiser aprender mais, se inscreva para receber absolutamente nada:</h3>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+            <label for="email">Digite seu Email: <input name="email" id="email" type="email" placeholder="Email aqui"></input></label>
+            <input type="submit" id="submit" />
+          </form>
+    </section>
+    <footer>Fonte: <a href="dopovo.com.br/ger-app-webservice/webservices/iframeHttps/codigo/661">https://apps.gazetadopovo.com.br/ger-app-webservice/webservices/iframeHttps/codigo/661</a></footer>
+  </body>
+</html>

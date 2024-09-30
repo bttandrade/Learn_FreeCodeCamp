@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para programadores</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="titulo">
+        <h1 id="title">FORMULÁRIO PARA PROGRAMADORES</h1>
+        <p id="description">Responda este formulário</p>
+    </div>
+    <form id="survey-form" action="https://surveyapp.com/submit">
+        <fieldset id="escrever">
+            <label id="name-label">Digite seu nome: <input id="name" name="name" type="text" placeholder=" Nome" required></label>
+            <label id="email-label">Digite seu email: <input id="email" name="email" type="email" placeholder=" Email" required></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">Em qual área da programação você se encontra? <select id="dropdown" name="dropdown">
+                <option value="">(Opções)</option>
+                <option value="1">Back-End</option>
+                <option value="2">Front-End</option>
+                <option value="3">Fullstack</option>
+                <option value="4">Data Science</option>
+                <option value="5">Mobile</option>
+            </select></label>
+        </fieldset>
+        <fieldset>
+            <label id="">Qual seu nível atual na programação?</label>
+            <label id="junior"><input type="radio" id="junior" name="radio" class="inline" value="junior">Júnior</label>
+            <label id="pleno"><input type="radio" id="pleno" name="radio" class="inline" value="pleno">Pleno</label>
+            <label id="senior"><input type="radio" id="senior" name="radio" class="inline" value="senior">Sênior</label>
+            <label id="inexperiente"><input type="radio" id="inexperiente" name="radio" class="inline" value="semexperiencia" checked>Sem experiência</label>
+        </fieldset>
+        <fieldset>
+            <label id="">Com qual linguagem de programação você já teve contato?</label>
+            <label for="java"><input type="checkbox" name="lang" id="java" value="java"> Java</label>
+            <label for="python"><input type="checkbox" name="lang" id="python" value="python"> Python</label>
+            <label for="javascript"><input type="checkbox" name="lang" id="javascript" value="javascript"> Javascript</label>
+            <label for="c"><input type="checkbox" name="lang" id="c" value="c"> C / C++ / C#</label>
+            <label for="php"><input type="checkbox" name="lang" id="php" value="php"> PHP</label>
+            <label for="outra"><input type="checkbox" name="lang" id="outra" value="outra"> Outra(s)</label>
+        </fieldset>
+        <fieldset>
+            <label id="number-label">Digite sua idade: <input id="number" name="number" type="number" min="8" max="100" placeholder=" Idade"></label>
+        </fieldset>
+        <fieldset>
+            <label for="textarea">O que você está achando da programação?<textarea name="textarea" id="textarea" cols="50" rows="4" placeholder=" Deixe um comentário"></textarea></label>
+        </fieldset>
+        <input type="submit" id="submit" />
+    </form>
+</body>
+</html>

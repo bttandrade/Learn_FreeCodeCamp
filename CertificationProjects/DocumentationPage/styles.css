@@ -1,0 +1,133 @@
+:root {
+    --title-color: rgb(85, 85, 85);
+    --text-color: rgb(216, 216, 216);
+    --letter-color1: white;
+    --letter-color2: black;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+  }
+  html {
+    background-color: rgb(209, 209, 209);
+  }
+  .title {
+    padding-top: 5px;
+    margin-top: 0;
+    display: solid;
+    width: 135px;
+    height: 1000px;
+    border: solid var(--title-color);
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    background-color: var(--title-color);
+    color: var(--letter-color1);
+  }
+  .nav-link {
+    display: solid;
+    position: fixed;
+    width: 135px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid var(--title-color);
+    line-height: 60px;
+  }
+  .nav-link:nth-of-type(1) {
+    margin-top: 100px;
+    background-color: var(--text-color);
+  }
+  .nav-link:nth-of-type(2) {
+    margin-top: 200px;
+    background-color: var(--text-color);
+  }
+  .nav-link:nth-of-type(3) {
+    margin-top: 300px;
+    background-color: var(--text-color);
+  }
+  .nav-link:nth-of-type(4) {
+    margin-top: 400px;
+    background-color: var(--text-color);
+  }
+  .nav-link:nth-of-type(5) {
+    margin-top: 500px;
+    background-color: var(--text-color);
+  }
+  p {
+    width: 100%;
+    text-indent: 30px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    text-align: justify;
+  }
+  li {
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+  section, footer {
+    margin-left: 160px;
+  }
+  header:not(.title) {
+    margin: 20px 0;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 480px; 
+    text-align: center;
+    font-weight: bold;
+  }
+  section {
+    background-color: var(--text-color);
+    border-radius: 2%; 
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  code {
+    position: relative;
+    left: 20px;
+  }
+  .codecamp {
+    height: 100px;
+    width: 100%;
+  }
+  h3, header:not(.title) {
+    border: solid var(--title-color);
+    background-color: var(--title-color);
+    color: var(--letter-color1);
+  }
+  h3 {
+    width: auto;
+  }
+  a, a:visited {
+    color: var(--letter-color2);
+  }
+  .nav-link:hover {
+    color: var(--letter-color2);
+    background-color: rgb(228, 228, 228);
+  }
+  footer {
+    border: solid var(--title-color);
+    background-color: var(--title-color);
+    color: var(--letter-color1);
+    text-align: center;
+    position: relative;
+    left: 465px;
+    line-height: 28px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+  }
+  #final {
+    text-decoration: none;
+    color: var(--letter-color1);
+  }
+  #final:hover {
+    color: rgb(26, 0, 170);
+  }
+  

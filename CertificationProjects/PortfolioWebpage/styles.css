@@ -1,0 +1,85 @@
+:root {
+    --bar-color1: rgb(0, 7, 104);
+    --text-color1: rgb(212, 212, 224);
+}
+html {
+    background-color: rgb(212, 212, 224);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bar-color1);    
+    width: 100%;
+    height: 50px;
+}
+#nav-link {
+    position: absolute;
+    text-decoration: none;
+    width: 90px;
+    height: 30px;
+    top: 10px;
+    text-align: center ;
+    margin-left: 30px;
+    line-height: 30px;
+    color: var(--text-color1);
+    font-weight: bold;
+}
+#nav-link:nth-of-type(2) {
+    left: 200px;
+}
+#nav-link:nth-of-type(3) {
+    left: 400px;
+}
+
+#nav-link:hover {
+    background-color: white;
+    color: black;
+}
+#welcome-section {
+    margin-top: 100px;
+    padding-top: 200px;
+    width: 95%;
+    height: 300px;
+    text-align: center;
+    margin-left: 30px;
+    background-color: rgb(109, 175, 194);
+    font-weight: bold;
+    color: rgb(2, 2, 112);
+}
+p {
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-left: 30px;
+    width: 95%;
+    background-color: var(--bar-color1);
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: var(--text-color1);
+    font-weight: bold;
+}
+#projects {
+    display: grid;
+    grid: 450px / auto auto;
+    width: 100%;
+    margin: 0 auto;
+    margin-left: 110px;
+}
+img {
+    width: 400px;
+    height: 400px;
+    border: solid var(--bar-color1);
+    object-fit: cover;
+    border-radius: 8px;
+}
+footer a {
+    color: gray;
+}
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
